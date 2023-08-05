@@ -10,7 +10,7 @@ const Header=()=>{
    <nav>
        <h1>RaisingStar</h1>
        <main>
-        <HashLink to={"/#home"}>Home</HashLink>  {/*  HashLink  package used not to reload the page*/}
+        <HashLink to={"/#home"}>Home</HashLink>  {/*  HashLink  package used to render the page without reloading and move with in the page */}
         <Link to={"/contact"}>Contact</Link>
         <HashLink to={"/#about"}>About</HashLink>
         <HashLink to={"/#brands"}>Brands</HashLink>
